@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:2E86C1,100:5DADE2&height=200&section=header&text=CollegeNotesOrg&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Revolutionizing%20Academic%20Note-Taking%20%26%20Knowledge%20Management&descAlignY=55&descAlign=50)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:2E86C1,100:5DADE2&height=200&section=header&text=CollegeNotesOrg&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Revolutionizing%20Academic%20Note-Taking%20and%20Knowledge%20Management&descAlignY=55&descAlign=50)
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2E86C1&center=true&vCenter=true&width=600&lines=📚+Centralized+Class+Notes;🔧+Powerful+Note+Tools;🤝+Collaborative+Learning;✨+Standardized+Formats" alt="Typing SVG" />
 
