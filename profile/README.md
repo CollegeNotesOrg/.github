@@ -2,7 +2,7 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:2E86C1,100:5DADE2&height=200&section=header&text=CollegeNotesOrg&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Revolutionizing%20Academic%20Note-Taking%20and%20Knowledge%20Management&descAlignY=55&descAlign=50)
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2E86C1&center=true&vCenter=true&width=600&lines=📚+Centralized+Class+Notes;🔧+Powerful+Note+Tools;🤝+Collaborative+Learning;✨+Standardized+Formats" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2E86C1&center=true&vCenter=true&width=600&lines=📚+Centralized+Class+Notes;🤖+AI-Powered+Intelligence;🔧+Powerful+Note+Tools;🤝+Collaborative+Learning;✨+Standardized+Formats" alt="Typing SVG" />
 
 </div>
 
@@ -29,30 +29,46 @@ Each college class has its own dedicated repository following the naming convent
 
 #### noteparser
 Our flagship Python package and repository for note management:
-- **Purpose**: Parse, format, and convert notes between different formats
+- **Purpose**: Parse, format, and convert notes between different formats with AI-powered intelligence
 - **Features**: 
   - Multi-format support (Markdown, LaTeX, HTML, PDF)
   - Automatic formatting and standardization
   - Batch processing capabilities
   - Integration with popular note-taking applications
-- **Installation**: `pip install noteparser`
+  - **AI-Powered Intelligence**: Semantic search, knowledge graphs, and smart insights
+  - **RAG Integration**: Context-aware question answering from your notes
+  - **Knowledge Organization**: Automatic linking and concept mapping
+- **Installation**: `pip install noteparser[ai]` (with AI features)
 - **Repository**: [noteparser](https://github.com/CollegeNotesOrg/noteparser)
+
+#### noteparser-ai-services
+Advanced AI backend services for intelligent document processing:
+- **Purpose**: Microservices backend providing AI capabilities for document intelligence
+- **Services**:
+  - **RagFlow**: Retrieval-Augmented Generation for semantic search and insights
+  - **DeepWiki**: AI-powered wiki system with knowledge graphs
+  - **Vector Databases**: High-performance similarity search with Qdrant/Weaviate
+- **Features**: Docker-based deployment, real-time processing, scalable architecture
+- **Repository**: [noteparser-ai-services](https://github.com/CollegeNotesOrg/noteparser-ai-services)
 
 ## 🎯 Goals
 
 1. **Centralize Learning Materials**: Create a single source of truth for class notes across different courses and semesters
 2. **Standardize Note Formats**: Ensure consistent formatting and organization across all repositories
-3. **Build Useful Tools**: Develop and maintain tools that enhance the note-taking and studying experience
-4. **Foster Collaboration**: Enable students to contribute to and benefit from shared knowledge
-5. **Preserve Academic Knowledge**: Maintain long-term accessibility to course materials and notes
+3. **Build Intelligent Tools**: Develop AI-powered tools that enhance the note-taking, studying, and research experience
+4. **Enable Smart Learning**: Provide semantic search, knowledge graphs, and AI insights from academic materials
+5. **Foster Collaboration**: Enable students to contribute to and benefit from shared knowledge with AI assistance
+6. **Preserve Academic Knowledge**: Maintain long-term accessibility to course materials with intelligent organization
 
 ## 🚀 Getting Started
 
 ### For Students
 1. Browse repositories to find notes for your specific classes
 2. Clone or fork relevant repositories to access notes locally
-3. Contribute by adding your own notes or improving existing ones
-4. Use our note management tools to organize and format your materials
+3. Use AI-powered search to find relevant content across all your notes
+4. Contribute by adding your own notes or improving existing ones
+5. Use our note management tools to organize and format your materials
+6. Ask AI questions about your course materials for instant insights
 
 ### For Contributors
 1. Follow our contribution guidelines in each repository
@@ -69,7 +85,28 @@ Our flagship Python package and repository for note management:
 
 | Tool | Description | Language | Status |
 |------|-------------|----------|--------|
-| [noteparser](https://github.com/CollegeNotesOrg/noteparser) | Note parsing and format conversion library | Python | Active |
+| [noteparser](https://github.com/CollegeNotesOrg/noteparser) | Note parsing and format conversion library with AI integration | Python | Active |
+| [noteparser-ai-services](https://github.com/CollegeNotesOrg/noteparser-ai-services) | AI microservices backend (RagFlow, DeepWiki, Vector DBs) | Python | Active |
+
+### 🤖 AI Features
+
+**Transform your note-taking with AI:**
+- **Semantic Search**: Find content by meaning, not just keywords
+- **Knowledge Graphs**: Visualize relationships between concepts
+- **AI Q&A**: Ask questions about your notes and get instant answers
+- **Auto-Summarization**: Extract key insights from long documents
+- **Smart Linking**: Automatic cross-references between related content
+
+**Quick Start with AI:**
+```bash
+# Install with AI features
+pip install noteparser[ai]
+
+# Start AI services
+git clone https://github.com/CollegeNotesOrg/noteparser-ai-services.git
+cd noteparser-ai-services
+docker-compose up -d
+```
 
 ## 📋 Repository Guidelines
 
@@ -111,6 +148,7 @@ We welcome contributions from students, educators, and developers! Please:
 
 - **Issues**: Report bugs or request features in the relevant repository
 - **Discussions**: Use GitHub Discussions for general questions and ideas
+- **AI Services Docs**: [Complete AI Integration Guide](https://github.com/CollegeNotesOrg/noteparser-ai-services/docs)
 - **Email**: suryanshss1011@gmail.com
 
 ## 📄 License
